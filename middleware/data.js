@@ -8,7 +8,7 @@ const date=(req,res,next)=>{
         res.send('close') 
     }
     else{
-        res.sendFile(__dirname +'/horaire.html' )
+        res.sendFile('open' )
     }
     next()
 

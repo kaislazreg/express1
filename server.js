@@ -20,7 +20,7 @@ app.get('/contactpage',(req,res)=>{
     res.sendFile(__dirname + '/public/contact.html')
 })
 
-app.get('/close-or-not',date,(req,res)=>{
+app.get('/',date,(req,res)=>{
     res.send({date})
 })
 
